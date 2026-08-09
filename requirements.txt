@@ -1,0 +1,14 @@
+# Koda Agent Harness 依赖
+openai>=1.0
+pydantic>=2.0
+colorlog
+python-dotenv
+
+# 沙箱执行（Bash 工具，Docker 不可用时自动回退本地）
+docker>=7.0
+
+# 可选：启用 MCP 工具时需要
+# mcp>=1.0
+
+# 测试
+pytest>=7.0
